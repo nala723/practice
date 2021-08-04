@@ -1,7 +1,5 @@
 import { useState } from "react";
-
-import "./styles.css";
-
+import "./styles.scss";
 export default function App() {
   const [click, setClick] = useState(false);
 
